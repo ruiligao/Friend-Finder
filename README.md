@@ -8,9 +8,15 @@ Basically this is a dating app. This full-stack site will take in results from u
    npm install
 
 ## Screen Shots
+#### Go to the home page and click survey link to start the survey
+
 ![Screenshot (70)](https://user-images.githubusercontent.com/47795010/55665350-9da43f80-57f2-11e9-8cde-c6526d0058a2.png)
 
+#### There are 10 questions, user should fill all to find the friend
+
 ![Screenshot (71)](https://user-images.githubusercontent.com/47795010/55665352-9f6e0300-57f2-11e9-8e87-82516089bbae.png)
+
+#### After fill all the questions and submit, user will get the friend' name and the image 
 
 ![Screenshot (72)](https://user-images.githubusercontent.com/47795010/55665353-a09f3000-57f2-11e9-9aaf-4898e6db82d5.png)
 

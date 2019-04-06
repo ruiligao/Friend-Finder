@@ -13,12 +13,16 @@
 <style>
     body {
         font-size: 24px;
-        font-family: 'Times New Roman', Times, serif
+        font-family: 'Times New Roman', Times, serif;
+        background-color:rgb(229, 240, 198)
     }
     #userMatchImage {
-        margin-left: 100px;
+        margin-left: 200px;
     }
-    
+    #modal1 {
+        width: 600px;
+        margin-left: 800px
+    }
 </style>
 </head>
 <body>
@@ -141,10 +145,10 @@
                     <option value="4">4</option>
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
-            <button type="submit" class="btn btn-primary btn-lg  mt-4 mb-5 btn-block" id="submit">Submit</button>
+            <button type="submit" class="btn btn-info btn-lg h4 mt-4 mb-5 btn-block" id="submit">Submit</button>
     </div>
     <!-- Modal form -->
-    <div id="modal1" style="width: 400" class="container mt-5 modal">
+    <div id="modal1"  class="container mt-5 modal">
 		<div class="modal-content">
 			<h4 class="mt-5 ml-5">Closest Friend Match</h4>
 			<div class="divider"></div>
@@ -152,7 +156,7 @@
 			<img id="userMatchImage" class="materialboxed ml-5 mb-5" width="350" src="">
 		</div>
 		<div class="modal-footer">
-			<a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Fill Again!</a>
+			<a href="/survey" class="modal-action modal-close waves-effect text-white btn-flat">Fill Again!</a>
 		</div>
 	</div>
 
@@ -191,7 +195,9 @@
         
         // console.log($('option:selected').map(function(){ return this.value}).get());
         if(!newSurvey.name||!newSurvey.photo||newSurvey.questions.includes("Select an Option")) {
-            alert("Please fill out all fields before submitting!");
+            $('#userMatch').html("Please fill all the questions!!");
+            $("h4").html("");
+      			$('#modal1').modal('open');
         }
         // $.ajax ({
         //     method:"POST",

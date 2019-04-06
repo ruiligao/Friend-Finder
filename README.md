@@ -11,16 +11,16 @@ Basically this is a dating app. This full-stack site will take in results from u
 
 ### Go to the home page and click survey link to start the survey
 
-![Screenshot (70)](https://user-images.githubusercontent.com/47795010/55665350-9da43f80-57f2-11e9-8cde-c6526d0058a2.png)
+![Screenshot (73)](https://user-images.githubusercontent.com/47795010/55666237-908e4d00-5800-11e9-8a9e-56274c0941c2.png)
 
 ### There are 10 questions, user should fill all to find the friend
 
-![Screenshot (71)](https://user-images.githubusercontent.com/47795010/55665352-9f6e0300-57f2-11e9-8e87-82516089bbae.png)
+![Screenshot (74)](https://user-images.githubusercontent.com/47795010/55666239-91bf7a00-5800-11e9-85fa-eedf4700cd06.png)
+
 
 ### After fill all the questions and submit, user will get the friend' name and the image 
 
-![Screenshot (72)](https://user-images.githubusercontent.com/47795010/55665353-a09f3000-57f2-11e9-9aaf-4898e6db82d5.png)
-
+![Screenshot (75)](https://user-images.githubusercontent.com/47795010/55666240-92f0a700-5800-11e9-9b28-9292ba8f3bea.png)
 
 ## Running Locally
 To run the application locally and access it in your browser, first set the PORT environment variable to the value of your choice. An example is shown below.

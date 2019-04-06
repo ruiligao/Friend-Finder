@@ -11,11 +11,11 @@ Basically this is a dating app. This full-stack site will take in results from u
 
 ### Go to the home page and click survey link to start the survey
 
-![Screenshot (73)](https://user-images.githubusercontent.com/47795010/55666237-908e4d00-5800-11e9-8a9e-56274c0941c2.png)
+![Screenshot (73)](https://user-images.githubusercontent.com/47795010/55666268-380b7f80-5801-11e9-8991-d5d94a900536.png)
 
 ### There are 10 questions, user should fill all to find the friend
 
-![Screenshot (74)](https://user-images.githubusercontent.com/47795010/55666239-91bf7a00-5800-11e9-85fa-eedf4700cd06.png)
+![Screenshot (74)](https://user-images.githubusercontent.com/47795010/55666269-393cac80-5801-11e9-93d6-21aec2843b2e.png)
 
 
 ### After fill all the questions and submit, user will get the friend' name and the image 
